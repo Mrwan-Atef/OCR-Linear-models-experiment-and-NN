@@ -1,0 +1,79 @@
+Handwritten Digit Recognition Using Machine Learning Techniques
+Project Overview
+
+This graduate-level project focuses on implementing and comparing different machine learning algorithms for handwritten digit
+recognition using the MNIST dataset. Students will explore various classification techniques including neural networks, linear
+regression, Naive Bayes, and logistic regression using scikit-learn.
+============================================================================================================================================
+Dataset
+Source: https://didadataset.github.io/DIDA/
+       
+Dataset size: 10,000 samples
+   
+Input: 28x28 images
+  
+Output: 10 classes (digits 0-9)  
+   
+Format: Each image is represented as a 784-dimensional vector (28×28 pixels)
+=================================================================================================================
+   
+Project Objectives
+
+   Implement and compare three  different machine learning approaches:              
+Multi-layer Perceptron Neural Network
+       
+Linear Regression (with One-vs-All strategy)
+       
+Logistic Regression
+       
+Naive Bays Classifier    
+
+=========================================================================================================================
+   Analyze and evaluate model  performance using various metrics:        
+Accuracy 
+       
+Precision
+ 
+Recall 
+       
+F1-score 
+       
+Confusion Matrix
+       
+   
+================================================================================
+
+Implementation Guidelines   
+Normalize pixel values (scale to [0,1])
+Split data into training (80%) and testing (20%) sets 
+Architecture: Multi-layer Perceptron        
+Hidden layers: Minimum 2 layers 
+Hyperparameters to tune: (Number of neurons per layer, Learning rate, Number of epochs, Batch size )
+Implement One-vs-All strategy 
+Feature engineering considerations        
+Analysis Requirements : 
+Performance Analysis
+Implement k-fold cross-validation (k=5) 
+Report mean and standard deviation of performance metrics        
+Analyze training time vs. accuracy trade-offs
+       
+   
+=============================================================================================
+
+Results Discussion
+
+Students should provide a comprehensive discussion addressing:
+Quantitative comparison of all three approaches 
+Analysis of each model's strengths and weaknesses 
+Discussion of failure cases and potential improvements
+Impact of different hyperparameter choices 
+Justification for final parameter selections  
+===================================================================================      
+Deliverables
+Well-documented implementation of all three models 
+Data preprocessing scripts 
+Evaluation scripts        
+Experimental results
+Comparative analysis
+5-minute presentation of findings
+Visual demonstrations of results

@@ -1,0 +1,25 @@
+# Datasets and large media
+1000/
+*.mp4
+*.jpg
+*.png
+*.rar
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.h5
+*.onnx
+*.npy
+*.pkl
+runs/
+checkpoints/
+
+# Virtual environments and caches
+venv/
+env/
+__pycache__/
+.ipynb_checkpoints/
+
+# API Keys
+.env
